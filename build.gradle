@@ -1,0 +1,65 @@
+plugins {
+    id 'java'
+    id 'org.springframework.boot' version '3.2.4'
+    id 'io.spring.dependency-management' version '1.1.4'
+}
+
+group = 'com.example'
+version = '0.0.1-SNAPSHOT'
+
+java {
+    sourceCompatibility = '17'
+}
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly group: 'javax.servlet', name: 'javax.servlet-api', version: '3.0.1'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    compileOnly 'org.projectlombok:lombok'
+    runtimeOnly 'com.h2database:h2'
+    runtimeOnly 'org.postgresql:postgresql'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    implementation group: 'javax.validation', name: 'validation-api', version: '2.0.1.Final'
+    implementation group: 'io.github.jhipster', name: 'jhipster-framework', version: '3.9.1'
+    implementation group: 'org.apache.poi', name: 'poi', version: '5.2.0'
+    implementation group: 'org.apache.poi', name: 'poi-ooxml', version: '5.2.0'
+    implementation group: 'org.jxls', name: 'jxls-jexcel', version: '1.0.9'
+    implementation group: 'org.dhatim', name: 'fastexcel-reader', version: '0.15.3'
+    implementation group: 'org.dhatim', name: 'fastexcel', version: '0.15.3'
+    implementation 'com.itextpdf:itextpdf:5.5.13.3'
+    implementation 'org.apache.pdfbox:pdfbox:3.0.0'
+    implementation 'org.bouncycastle:bcpkix-jdk18on:1.76'
+    implementation 'org.apache.pdfbox:pdfbox:2.0.11'
+    implementation group: 'org.modelmapper', name: 'modelmapper', version: '3.2.0'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'io.jsonwebtoken:jjwt:0.9.1'
+    implementation 'org.hashids:hashids:1.0.3'
+    implementation 'javax.xml.bind:jaxb-api:2.3.1'
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.2.0'
+    compileOnly 'org.projectlombok:lombok'
+    runtimeOnly 'org.postgresql:postgresql'
+    annotationProcessor 'org.projectlombok:lombok'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    annotationProcessor 'org.mapstruct:mapstruct-processor:1.5.3.Final'
+    implementation 'org.mapstruct:mapstruct:1.5.3.Final'
+    implementation 'org.projectlombok:lombok-mapstruct-binding:0.2.0'
+    compileOnly 'org.projectlombok:lombok:1.18.30'
+    annotationProcessor 'org.projectlombok:lombok:1.18.30'
+
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
