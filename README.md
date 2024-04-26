@@ -24,15 +24,6 @@ npm install
 
 | № | Services | Status |
 |-----------------|-----------------|-----------------|
-| 1 | User service | ✅ |
-| 2 | Book service | ✅ |
-| 3 | Statistic service | ✅ |
-| 4 | Comment service | ✅ |
-| 5 | Cart service | ✅ |
-| 6 | Order service | ✅ |
-| 7 | Order details service | ✅ |
-| 8 | Statistic service | ✅ |
-| 9 | Permission service | ✅ |
-| 10 | Role service | ✅ |
+
 
 
