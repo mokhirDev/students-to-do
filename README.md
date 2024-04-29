@@ -25,11 +25,11 @@ public class StudentsProjectApplication {
 
 | No |                                                                             Services                                                                              | Status |
 |:--:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------:|
-| 1  |    [University Service](https://github.com/QodirovHudoberdi/StudentTask/blob/master/src/main/java/com/company/controller/AddPage.java)      |   ✅    |
-| 2  | [Field Of Study Service](https://github.com/QodirovHudoberdi/StudentTask/blob/master/src/main/java/com/company/controller/EditPage.java) |   ✅    |
-| 3  |   [Student Service](https://github.com/QodirovHudoberdi/StudentTask/blob/master/src/main/java/com/company/controller/StudentPage.java)         |   ✅    |
-| 4  | [File Storage Service](https://github.com/QodirovHudoberdi/StudentTask/blob/master/src/main/java/com/company/service/DocumentService.java)  |   ✅    |
-| 5  |      [Export Services](https://github.com/QodirovHudoberdi/StudentTask/blob/master/src/main/java/com/company/service/PhotoService.java)       |   ✅    |
+| 1  |    [University Service](https://github.com/mokhirDev/students-to-do/blob/master/src/main/java/com/example/StudentToDo/service/UniversityService.java)      |   ✅    |
+| 2  | [Field Of Study Service](https://github.com/mokhirDev/students-to-do/blob/master/src/main/java/com/example/StudentToDo/controller/StudentController.java) |   ✅    |
+| 3  |   [Student Service](https://github.com/mokhirDev/students-to-do/blob/master/src/main/java/com/example/StudentToDo/service/StudentService.java)         |   ✅    |
+| 4  | [File Storage Service](https://github.com/mokhirDev/students-to-do/blob/master/src/main/java/com/example/StudentToDo/service/NetworkDataService.java)  |   ✅    |
+| 5  |      [Export Services](https://github.com/mokhirDev/students-to-do/blob/master/src/main/java/com/example/StudentToDo/service/ImageService.java)       |   ✅    |
 =======
 
 >>>>>>> origin/master
