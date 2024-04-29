@@ -1,29 +1,35 @@
-# Student To Do
+> HEAD
+# Student Service
 
-Online book shop market.
-## Installation
+### Automation of The process of studying students
 
-Provide instructions on how to install and set up the project.
+This system includes:
 
-```bash
-# Clone the repository
-git clone https://github.com/username/repository.git](https://github.com/mokhirDev/BookShop.git
+* Reformed a Student details
+* Chance to perform actions on University
+* Chance to perform actions on Field of University
+* Get resume for each Student on .pdf file
+* Get List of All Students on .xlsx file
 
-# Change directory
-cd repository
+```java
 
-# Install dependencies
-npm install
-```
+@SpringBootApplication
+public class StudentsProjectApplication {
 
-| № | Status | Description |
-|-----------------|-----------------|-----------------|
-| 1 | ✅ | done |
-| 2 | ⏱ | in progress |
-| 3 | 🚫 | not started |
+    public static void main(String[] args) {
+        SpringApplication.run(StudentsProjectApplication.class, args);
+    }
 
-| № | Services | Status |
-|-----------------|-----------------|-----------------|
+}
+***You can get the services listed above in this table through the links***
 
+| No |                                                                             Services                                                                              | Status |
+|:--:|:-----------------------------------------------------------------------------------------------------------------------------------------------------------------:|:------:|
+| 1  |    [University Service](https://github.com/QodirovHudoberdi/StudentTask/blob/master/src/main/java/com/company/controller/AddPage.java)      |   ✅    |
+| 2  | [Field Of Study Service](https://github.com/QodirovHudoberdi/StudentTask/blob/master/src/main/java/com/company/controller/EditPage.java) |   ✅    |
+| 3  |   [Student Service](https://github.com/QodirovHudoberdi/StudentTask/blob/master/src/main/java/com/company/controller/StudentPage.java)         |   ✅    |
+| 4  | [File Storage Service](https://github.com/QodirovHudoberdi/StudentTask/blob/master/src/main/java/com/company/service/DocumentService.java)  |   ✅    |
+| 5  |      [Export Services](https://github.com/QodirovHudoberdi/StudentTask/blob/master/src/main/java/com/company/service/PhotoService.java)       |   ✅    |
+=======
 
-
+>>>>>>> origin/master
